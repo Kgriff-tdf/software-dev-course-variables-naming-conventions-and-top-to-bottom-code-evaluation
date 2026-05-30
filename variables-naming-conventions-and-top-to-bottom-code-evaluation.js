@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice"; /*Original was vague*/
+let numberOfItems = 5; /*Original was vague*/
+let totalPrice = 20; /*Original was vague*/
+let firstItem = "notebooks"
+let secondItem = "pens"
+let overviewMessage = customerName + " bought " + numberOfItems + " items for $" + totalPrice + "."; /*Original was vague*/
+let detailedMessage = "The items bought are " + firstItem + " and " + secondItem + ".";
 
-console.log(d);
+console.log(overviewMessage);
+console.log(detailedMessage);
